@@ -401,7 +401,7 @@ function draw_canvas_ver(ver_no) {
 	// distance values
 	if(((ver_no == 0 && document.getElementById("draw_distances").checked) || ver_no == 1 || ver_no == 2) && lines.length > 0) {
 		context.font = "16px Arial";
-		context.fillStyle = "#000000";
+		context.fillStyle = "#888";
 		context.textAlign = "center";
 		context.textBaseline = "middle";
 		for(var i = grid_size / 2 ; i <= h - grid_size / 2; i += grid_size) {
